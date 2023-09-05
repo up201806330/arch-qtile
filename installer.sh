@@ -176,9 +176,9 @@ postInstall(){
   whiptail --title "File Selection" --checklist "Select files to copy:" 15 60 5 "${file_list[@]}" 3>&1 1>&2 2>&3
 }
 
-installMenu
-#welcomeDialogs
-#pipInstall
-#baseInstall
-#AURInstall
+#installMenu
+welcomeDialogs
+pipInstall
+baseInstall
+AURInstall
 #postInstall
