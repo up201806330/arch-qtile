@@ -35,4 +35,3 @@ xorg-xdpyinfo
 pamixer
 xclip
 xdotool
-zsh
