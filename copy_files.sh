@@ -14,7 +14,7 @@ function copy_dotfiles(){
   mkdir -p ~/.config/picom
   cp ~/QARSlp/dotfiles/.config/picom/picom.conf ~/.config/picom/picom.conf
   mkdir -p ~/.config/qtile
-  cp ~/QARSlp/dotfiles/.config/qtile/themes/default.py ~/.config/qtile/theme.py
+  cp ~/QARSlp/dotfiles/.config/qtile/theme.py ~/.config/qtile/theme.py
   cp -r ~/QARSlp/dotfiles/.config/qtile/* ~/.config/qtile/
   mkdir -p ~/.config/ranger
   cp ~/QARSlp/dotfiles/.config/ranger/rc.conf ~/.config/ranger/rc.conf
@@ -44,5 +44,5 @@ function copy_dotfiles(){
   sudo chown $USER:$USER /usr/local/backgrounds
   sudo cp ~/QARSlp/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 }
-
+export HOME=/home/manjaro
 copy_dotfiles
