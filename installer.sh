@@ -178,7 +178,7 @@ postInstall(){
 
 #installMenu
 welcomeDialogs
-pipInstall
 baseInstall
 AURInstall
+pipInstall
 #postInstall
