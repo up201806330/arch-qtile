@@ -177,8 +177,12 @@ postInstall(){
 }
 
 #installMenu
-welcomeDialogs
-baseInstall
-AURInstall
-pipInstall
+#welcomeDialogs
+#baseInstall
+#AURInstall
+#pipInstall
 #postInstall
+
+installBasePackages
+installAURPackages
+installPipPackages
