@@ -41,7 +41,7 @@ function copy_dotfiles(){
   sudo ln -s /usr/local/themes/FlatColor /usr/share/themes/FlatColor
   sudo mkdir /usr/local/backgrounds
   sudo chown $USER:$USER /usr/local/backgrounds
-  sudo cp ~/QARSlp/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+  #sudo cp ~/QARSlp/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 }
 export HOME=/home/manjaro
 copy_dotfiles
