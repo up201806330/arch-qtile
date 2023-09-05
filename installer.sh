@@ -131,7 +131,7 @@ installPipPackages() {
 
     pip install -r pip.txt --break-system-packages
 
-    PERCENTAGE=$((count * 100 / TOTAL_PACKAGE))
+    PERCENTAGE=$((count * 100 / TOTAL_PACKAGES))
 
     echo "::: "
     echo "Installing $PACKAGE..."
