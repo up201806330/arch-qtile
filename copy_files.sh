@@ -29,11 +29,10 @@ function copy_dotfiles(){
   cp -r ~/QARSlp/dotfiles/.local/bin/* ~/.local/bin
   chmod +x ~/.local/bin/*
   cp ~/QARSlp/dotfiles/.zshrc ~/
-  mkdir -p ~/.oh-my-zsh
-  cp ~/QARSlp/dotfiles/.oh-my-zsh/themes/* ~/.oh-my-zsh/themes/
-  mkdir ~/Pictures
-  sudo mkdir -p /usr/share/backgrounds
+  #mkdir -p ~/.oh-my-zsh
+  #cp ~/QARSlp/dotfiles/.oh-my-zsh/themes/* ~/.oh-my-zsh/themes/
   mkdir -p ~/Pictures/Wallpapers
+  sudo mkdir -p /usr/share/backgrounds
   cp -r ~/QARSlp/Wallpapers/* ~/Pictures/Wallpapers
   sudo cp ~/QARSlp/Wallpapers/wall.jpg /usr/local/backgrounds/background.png
   sudo mkdir -p /usr/local/themes
