@@ -36,3 +36,4 @@ pamixer
 xclip
 xdotool
 wlroots
+python-pywlroots
