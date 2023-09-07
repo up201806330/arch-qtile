@@ -1,5 +1,6 @@
 cairocffi
 xcffib
+pywlroots
 requests
 fontawesome
 ipc
