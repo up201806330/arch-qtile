@@ -1,4 +1,4 @@
-cairocffi
+cairocffi>=1.6.0
 xcffib
 pywlroots
 requests
