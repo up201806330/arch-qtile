@@ -1,5 +1,5 @@
 cairocffi>=1.6.0
-xcffib
+xcffib>=1.4.0
 pywlroots
 requests
 fontawesome
